@@ -1,12 +1,12 @@
 import random
 
 def guess_the_number():
-    secret_number = random.randint(1, 100)
+    secret_number = random.randint(1, 50)  # Change the range of random number (1 to 50)
     attempts = 0
-    max_attempts = 10
+    max_attempts = 5  # Change the maximum number of attempts to 5
 
     print("Welcome to Guess the Number!")
-    print("I'm thinking of a number between 1 and 100.")
+    print("I'm thinking of a number between 1 and 50.")  # Update the displayed range
 
     while attempts < max_attempts:
         print(f"\nAttempt {attempts + 1} of {max_attempts}")
