@@ -1,0 +1,1 @@
+This project is a Python implementation of the "Guess the Number" game. It utilizes the random module to generate a random number within a given range and prompts the player to enter their guesses. The game provides feedback on each guess and terminates when the player guesses the correct number or runs out of attempts.
